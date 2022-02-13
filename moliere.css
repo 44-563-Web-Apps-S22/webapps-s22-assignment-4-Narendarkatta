@@ -1,3 +1,5 @@
+
+/*End of Style the table */
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -23,6 +25,7 @@ table, th, td {
   td{
       color:rgb(250, 191, 135);
   }
+  /*End of Style the table */
   a{
       text-decoration: none;
   }
@@ -33,6 +36,8 @@ table, th, td {
 #bg{
     background-color: gray;
   }
+
+  /* Style the char class */
 .CHRY{
     color:seagreen;
     font-family: 'Poppins', sans-serif;
@@ -51,11 +56,16 @@ table, th, td {
     color: chocolate;
     font-family: 'Ubuntu', sans-serif;
 }
+/*End of Style the char class */
+
+/*start of Style the speech class */
 .speech{
     font-family: Courier;
     font-size: 15px;
     color: black;
 }
+/*End of Style the speech class */
+/* Style the direction class */
 .direction{
     font-family: Courier;
     font-size: 18px;
@@ -69,3 +79,33 @@ table, th, td {
     background-color: #ffeb3b;
 
 }
+
+/*End of Style the direction class */
+
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color: rgb(50, 126, 177);
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: rgb(187, 161, 161);
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+ .navbar a:nth-child(2){
+    float: right !important;
+}
+  /* End of Style the navigation bar */
